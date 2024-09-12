@@ -1,13 +1,13 @@
 import React from "react";
 
-import style from './Home.Module.css';
+import style from './Home.module.css';
 
 const Home = () =>{
     return(
         <section className={style.home_container}>
-            <h1>Bem vindo a sua <span>LISTA DE TAREFAS</span></h1>
-            <p>sua plataforma web de lista!</p>
-            <img src="./listpng.png" />
+            <h1><span>BEM VINDO A SUA LISTA DE TAREFAS</span></h1>
+            <p>SUA PLATAFORMA WEB DE TAREFAS!</p>
+            <img src="./fotoTaree.png" />
         </section>
     )
 }

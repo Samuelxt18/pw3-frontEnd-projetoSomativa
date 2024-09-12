@@ -5,10 +5,10 @@ function Select({name,text}) {
         <div className={styles.form_control}>
         <label htmlFor={name}>{text}</label>
         <select name={name} id={name}>
-        <option> Selecione uma categoria</option>
-        <option> Ficção cientifica</option>
-        <option> Suspense</option>
-        <option> Terror</option>
+        <option> Selecione uma tarefa</option>
+        <option> andar</option>
+        <option> correr</option>
+        <option> fazer o almoço</option>
         </select>
         </div>
     )

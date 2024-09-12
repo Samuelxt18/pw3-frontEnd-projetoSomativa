@@ -1,13 +1,18 @@
-import React from 'react';
-import styles from './Input.module.css'; // Certifique-se de que o caminho está correto
 
-const Input = ({ type, name, text, placeholder }) => {
-    return (
+import styles from './Input.module.css'
+function Input({type, text, placeHolder, name}){
+
+    return(
         <div className={styles.form_control}>
-            <label htmlFor={name}>{text}</label>
-            <input type={type} id={name} placeholder={placeholder} />
+        <label html={name}> {text}</label>
+        <input 
+            type={type}
+            name={name}
+            id={name}
+            placeholder={placeHolder}/>
         </div>
-    );
-};
+    )
 
-export default Input;
+}
+
+export default Input

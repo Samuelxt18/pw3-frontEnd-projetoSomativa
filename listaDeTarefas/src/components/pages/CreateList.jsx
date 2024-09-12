@@ -14,32 +14,32 @@ const CreateList = () =>{
 
         <Input
             type='text'
-            name='txt_livro'
-            placeHolder='digite o nome do seu livro aqui'
-            text='Titulo do livro'
+            name='txt_tarefa'
+            placeHolder='digite sua tarefa'
+            text='Tarefa'
         />
 
         <Input
             type='text'
-            name='txt_autor'
-            placeHolder='digite o numero do ator'
-            text='Nome do ator'
+            name='txt_datTare'
+            placeHolder='digite quando ira ser realizada'
+            text='Data da tarefa'
         />
 
         <Input
             type='text'
-            name='txt_descricao_livro'
-            placeHolder='digite a descriçao do livro'
-            text='Descrição do livro'
+            name='txt_descricao_tarefa'
+            placeHolder='digite a descriçao da tarefa'
+            text='Descrição da tarefa'
         />
 
         <Select
             name='categoria'
-            text='Escolha uma categoria de livro'
+            text='Escolha uma categoria da tarefa'
         />
 
         <Button
-            rotulo='Cadastrar Livro'
+            rotulo='Cadastrar Tarefa'
         />
 
         </section>
