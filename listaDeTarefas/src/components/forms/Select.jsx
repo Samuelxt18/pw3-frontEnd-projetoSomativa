@@ -6,9 +6,9 @@ function Select({name,text}) {
         <label htmlFor={name}>{text}</label>
         <select name={name} id={name}>
         <option> Selecione uma tarefa</option>
-        <option> andar</option>
-        <option> correr</option>
-        <option> fazer o almoço</option>
+        <option> Exercio fisico</option>
+        <option> Alimentação </option>
+        <option> Estudos </option>
         </select>
         </div>
     )
